@@ -316,7 +316,7 @@ public class SolrImportHandler implements DoThreadListener {
                 
                         
             } else {
-                System.out.println("Invalid Command.  Please use one of: command=start|shutdown|status|restart");
+                System.out.println("Invalid Command.  Please use one of: command=start|shutdown|status|restart|help");
                 System.exit(0);
             }
         }
